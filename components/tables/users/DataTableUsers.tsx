@@ -187,8 +187,7 @@ export function DataTableUsers({
                   colSpan={columns.length}
                   className="h-24 text-center"
                 >
-                  Data tidak tersedia silahkan untuk menambahkan data transaksi
-                  terlebih dahulu.
+                  Data user tidak ada.
                 </TableCell>
               </TableRow>
             )}

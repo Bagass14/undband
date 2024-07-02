@@ -47,15 +47,6 @@ const UserButton: React.FC = () => {
                             align="end"
                             className="border shadow-lg rounded-lg mt-2 p-1 w-30animate-slide-down"
                         >
-                            <DropdownMenuItem>
-                                <button
-                                    // onClick={() => profil()}
-                                    className="text-sm w-fit p-0.5  p-0 rounded-lg w-full text-left"
-                                    type="button"
-                                >
-                                    Profil
-                                </button>
-                            </DropdownMenuItem>
                             <DropdownMenuItem >
                                 <button
                                     onClick={() => signOut()}

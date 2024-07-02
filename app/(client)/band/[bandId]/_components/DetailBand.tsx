@@ -37,7 +37,7 @@ export default function DetailBand({ bandId }: { bandId: string }) {
                                     <span className="text-sm text-gray-500 dark:text-gray-400">{findBandById.band_genre.map((genre: string) => (genre)).join(', ')}</span>
                                 </div>
                                 <div className='flex flex-col gap-2 items-center'>
-                                    <Label className='text-md'>Lahir pada {findBandById.band_rilis}</Label>
+                                    <Label className='text-md'>Dibentuk pada {findBandById.band_rilis}</Label>
                                     <Label className="leading-relaxed text-md">{findBandById.band_deskripsi}</Label>
                                 </div>
                             </div>
